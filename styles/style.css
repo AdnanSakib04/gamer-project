@@ -223,7 +223,27 @@ margin-bottom: 48px;
     /* width: 342px;
 height: 400px; */
 }
+.card-img:hover .play-now{
+ 
+   visibility:visible ;
+}
+
+.card-img:hover{
+    border-radius: 16px;
+}
 .card p{
     margin-top: 24px;
+}
+
+.card-img{
+    position: relative;
+    border-radius: 16px;
+
+}
+.play-now{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   visibility: hidden;
 }
 /* online games section ends here  */
