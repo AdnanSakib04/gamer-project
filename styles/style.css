@@ -182,3 +182,48 @@ nav {
     width: 50%;
 }
 /* banner section ends here  */
+
+
+/* online games section starts here  */
+.online-games h1{
+    margin-top: 120px;
+    color: #0B0223;
+    text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+
+.online-games span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+
+.online-games h6{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 48px;
+}
+.online-games-container{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.card{
+    /* width: 342px;
+height: 400px; */
+}
+.card p{
+    margin-top: 24px;
+}
+/* online games section ends here  */

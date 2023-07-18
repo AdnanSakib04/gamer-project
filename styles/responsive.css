@@ -30,6 +30,23 @@
             width: 100%;
             margin-top: 20px;
         }
+    /* banner section ends here  */
+
+    /* online games section starts here  */
+    .online-games-container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        
+    }
+    .online-games{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card img{
+        width: 100%;
+    }
+/* online games section ends here  */
 }
 
 
@@ -64,6 +81,7 @@
     flex-direction: column-reverse;
     
     }
+   
     .banner-img-container{
         width: 100%;
     }
@@ -73,7 +91,7 @@
 
     
 .banner-items-container {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 100%;
     background-image: url("../images/Group14.png");
     background-repeat: no-repeat;
@@ -136,13 +154,23 @@
     .btn-blue {
         border-radius: 28px;
         background: #4EC5F7;
-    
-    
-    
     }
    
-
     /* banner section ends here  */
 
 
+    /* online games section starts here  */
+    .online-games-container{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        
+    }
+    .online-games{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .card img{
+        width: 100%;
+    }
+/* online games section ends here  */
 }
