@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
-body{
-font-family: 'Work Sans', sans-serif;
+
+body {
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* nav section starts here  */
-
-nav{
+nav {
     background: #FFF;
 }
-.nav-container{
+
+.nav-container {
     max-width: 1440px;
     margin: 38px auto;
     display: flex;
@@ -20,37 +24,38 @@ nav{
 
 }
 
-.nav-img-container{
+.nav-img-container {
     display: flex;
     gap: 20px;
     align-items: center;
 
-width: 50%;
+    width: 50%;
 }
 
-.nav-img-container img{
+.nav-img-container img {
     width: 86px;
     height: 40px;
+    margin-left: 20px;
 }
 
-.nav-img-container p{
+.nav-img-container p {
     color: #0B0223;
     font-size: 45px;
-font-weight: 700;
+    font-weight: 700;
 }
 
-.text-color-span{
+.text-color-span {
     color: #FF42A5;
 }
 
-.nav-items-container{
+.nav-items-container {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
 
 }
 
-.nav-items-container a{
+.nav-items-container a {
     text-decoration: none;
     color: #3C354F;
     font-size: 18px;
@@ -60,28 +65,120 @@ font-weight: 700;
 
 }
 
-.follow-icon-container{
+.follow-icon-container {
     display: flex;
     width: 262px;
-height: 56px;
-border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-align-items: center;
-justify-content: space-evenly;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    justify-content: space-evenly;
 
 }
-.fa-tiktok{
+
+.fa-tiktok {
     font-size: 28px;
     color: black;
 }
-.fa-youtube{
+
+.fa-youtube {
     margin-right: 16px;
     font-size: 28px;
     color: red;
 
 }
-.follow-icon-container p{
+
+.follow-icon-container p {
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
 }
+
+/* banner section starts here  */
+.banner {
+    background: #FFF;
+}
+
+.banner-container {
+    /* max-width: 1440px; */
+    /* margin: 38px auto; */
+    display: flex;
+
+}
+
+.banner-items-container {
+    width: 50%;
+    background-image: url("../images/Group14.png");
+    background-repeat: no-repeat;
+    /* width: 901px;
+    height: 700px;     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.banner-items-container ul {
+    list-style: none;
+}
+
+.banner-items-container h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner-items-container h1 {
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.banner-items-container .fa-solid {
+    padding-right: 20px;
+}
+
+.banner-items-container .btn-primary {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-pink {
+    border-radius: 48px;
+    background: #FF42A5;
+    margin-right: 24px;
+}
+
+.btn-blue {
+    border-radius: 48px;
+    background: #4EC5F7;
+
+
+
+}
+
+.banner-img-container {
+    width: 50%;
+}
+/* banner section ends here  */

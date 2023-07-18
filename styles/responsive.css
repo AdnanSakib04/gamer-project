@@ -2,16 +2,34 @@
     .nav-container{
         flex-direction: column;
         gap: 40px;  
+        margin: auto;
     }
     .nav-img-container{
-        justify-content: center;
         width: 100%;
+        justify-content: center;
+
     }
     .nav-items-container{
         gap: 40px;
         width: 100%;
 
     }
+    /* nav ends here  */
+
+    /* banner section starts here  */
+    .banner-container{
+        flex-direction: column-reverse;
+        }
+        .banner-img-container{
+            width: 100%;
+        }
+        .banner-img-container img{
+            width: 100%;
+        }
+        .banner-items-container{
+            width: 100%;
+            margin-top: 20px;
+        }
 }
 
 
@@ -38,4 +56,93 @@
         width: 100%;
         align-items: center;
     }
+
+    /* nav ends here  */
+
+    /* banner section starts here  */
+    .banner-container{
+    flex-direction: column-reverse;
+    
+    }
+    .banner-img-container{
+        width: 100%;
+    }
+    .banner-img-container img{
+        width: 100%;
+    }
+
+    
+.banner-items-container {
+    margin-top: 10px;
+    width: 100%;
+    background-image: url("../images/Group14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 901px;
+    height: 700px;     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list {
+    color: #534C64;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+    .banner-items-container h2 {
+        color: #0B0223;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .banner-items-container h1 {
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 800;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 24px;
+    }
+    
+    .banner-items-container .fa-solid {
+        padding-right: 20px;
+    }
+    
+    .banner-items-container .btn-primary {
+        margin-top: 20px;
+    }
+    
+    .btn-primary {
+        padding: 11px 20px;
+        border-radius: 28px;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        border: none;
+    }
+    
+    .btn-pink {
+        border-radius: 28px;
+        background: #FF42A5;
+        margin-right: 24px;
+    }
+    
+    .btn-blue {
+        border-radius: 28px;
+        background: #4EC5F7;
+    
+    
+    
+    }
+   
+
+    /* banner section ends here  */
+
+
 }
