@@ -330,3 +330,55 @@ right: 75%;
 }
 
 /* play instantly section ends here  */
+
+/* buttons section stars here  */
+
+.buttons-section{
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1440px;
+}
+
+.button-style{
+    border-radius: 50px;
+background: #FFF;
+width: 243px;
+height: 80px;
+display: flex;
+    align-items: center; 
+    gap: 16px;
+    border: none;
+    padding-left: 10px;
+
+}
+.btn-img{
+    width: 60px;
+    height: 60px;
+}
+
+.button-text{
+    color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+padding-top: 29px;
+padding-bottom: 28px;
+}
+
+.button-style:hover{
+    border: 2px solid #F948B2;
+    background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.buttons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    justify-content: center;
+
+}
+
+/* buttons section ends here  */
