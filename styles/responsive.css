@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 990px) {
     .nav-container{
         flex-direction: column;
         gap: 40px;  
@@ -47,11 +47,47 @@
         width: 100%;
     }
 /* online games section ends here  */
+
+
+/* play instantly section starts here  */
+.play-instantly-container{
+    flex-direction: column;
+    width: 100%;
+}
+
+.play-instantly-items-container{
+    /* margin-left: 200px; */
+    margin: 30px auto;
+    
+    }
+  
+    
+    .image-parent-container{
+        display: flex;
+        justify-content: center;
+    }
+    .image-parent-container> img{
+    width: 60%;
+    }
+    .image-child-container img{
+        width: 60%;
+    
+    }
+    
+    .image-child-container{
+        border-radius: 8px;
+    /* border: 10px solid #FFF; */
+    position: absolute;
+    top: 57%;
+    right: 45%;
+    }
+    
+/* play instantly section ends here  */
 }
 
 
 /* mobile responsive  */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
     .nav-container,
     .nav-items-container{
         flex-direction: column;
@@ -173,4 +209,65 @@
         width: 100%;
     }
 /* online games section ends here  */
+
+
+
+/* play instantly section starts here  */
+.play-instantly-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+
+
+.play-instantly-items-container{
+/* margin-left: 200px; */
+margin: 30px auto;
+
+}
+.play-instantly-container{
+    flex-direction: column;
+    width: 100%;
+}
+
+.image-parent-container{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid blue; */
+    /* margin: 0 0px; */
+    position: relative;
+
+}
+.image-parent-container> img{
+width: 80%;
+}
+.image-child-container img{
+    width: 100%;
+
+}
+
+
+.image-child-container{
+    /* border: 3px solid blue; */
+    /* width: 100%; */
+
+/* border: 10px solid #FFF; */
+/* margin-right: 30px; */
+position: absolute;
+top: 57%;
+right:60%;
+}
+
+.play-instantly-images{
+    /* border: 3px solid red; */
+    margin: 0 10px;
+}
+
+
+
+
+/* play instantly section ends here  */
 }

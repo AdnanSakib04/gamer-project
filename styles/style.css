@@ -97,6 +97,9 @@ nav {
 /* banner section starts here  */
 .banner {
     background: #FFF;
+    /* max-width: 1440px; */
+
+    margin: auto;
 }
 
 .banner-container {
@@ -185,6 +188,10 @@ nav {
 
 
 /* online games section starts here  */
+.online-games{
+    margin: auto;
+    max-width: 1440px;
+}
 .online-games h1{
     margin-top: 120px;
     color: #0B0223;
@@ -253,6 +260,10 @@ width: 100%;
     border-radius: 16px;
 
 }
+.card-img img{
+    border-radius: 16px;
+
+}
 .play-now{
     position: absolute;
    top: 40%;
@@ -260,3 +271,62 @@ width: 100%;
    visibility: hidden;
 }
 /* online games section ends here  */
+
+
+/* play instantly section starts here  */
+.play-instantly{
+    margin-top: 120px;
+}
+.play-instantly-container{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.play-instantly-items-container h1{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+width: 341px;
+height: 180px;
+margin-bottom: 24px;
+}
+.play-instantly-items-container span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-instantly-items-container p{
+    
+/* width: 353px; */
+color: #534C64;
+font-size: 18px;
+width: 353px;
+}
+
+.play-instantly-items-container{
+margin-left: 200px;
+}
+
+.image-parent-container{
+    position: relative;
+
+}
+
+.image-child-container{
+    border-radius: 8px;
+/* border: 10px solid #FFF; */
+position: absolute;
+top: 57%;
+right: 75%;
+}
+.play-instantly-items-container{
+    text-align: center;
+}
+
+/* play instantly section ends here  */
