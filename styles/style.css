@@ -240,38 +240,45 @@ margin-bottom: 48px;
     margin: 0 auto;
 }
 
-.card-img:hover .play-now{
- 
-   visibility:visible ;
-}
-.card-img img{
-width: 100%;
-}
-
-.card-img img:hover{
-    filter: brightness(0.5);
-    border: 5px solid #F948B2;
-    border-radius: 22px;
-}
-.card p{
-    margin-top: 24px;
-}
-
-.card-img{
+.card-img {
     position: relative;
     border-radius: 16px;
-
-}
-.card-img img{
+    /* overflow: hidden; */
+  }
+  
+  .card-img img {
+    width: 100%;
     border-radius: 16px;
-
-}
-.play-now{
+    transition: filter 0.3s ease; 
+  }
+  
+  .card-img:hover img {
+    filter: brightness(0.5);
+   border: 5px solid #F948B2;
+   border-radius: 30px;
+  }
+  
+  .card-img:hover .play-now {
+    visibility: visible;
+  }
+  
+  .play-now {
     position: absolute;
-   top: 40%;
-   left: 45%;
-   visibility: hidden;
-}
+    top: 40%;
+    left: 45%;
+    visibility: hidden;
+    z-index: 1;
+  }
+  
+  .watch-now-icon {
+    font-size: 40px;
+    color: white;
+  }
+  
+  .card-img:hover .watch-now-icon {
+    filter: brightness(1);
+  }
+  
 /* online games section ends here  */
 
 
