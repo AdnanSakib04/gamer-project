@@ -385,6 +385,7 @@ background-clip: text;
 
 /* footer starts here  */
 footer{
+    /* border: 2px solid blue; */
     margin-top: 120px;
     background: #0B0223;
     height: 636px;
@@ -397,11 +398,7 @@ footer{
     justify-content: center;
 }
 
-.nav-img-container img {
-    width: 86px;
-    height: 40px;
-    margin-left: 20px;
-}
+
 
 .footer-logo p {
     color: #FFF;

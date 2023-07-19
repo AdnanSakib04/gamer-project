@@ -1,3 +1,4 @@
+/* tablet responsive  */
 @media screen and (min-width: 576px) and (max-width: 990px) {
     .nav-container{
         flex-direction: column;
@@ -120,6 +121,78 @@ padding-top: 29px;
 padding-bottom: 28px;
 }
 /* -------------buttons section ends here----------------------  */
+
+/* footer section starts here  */
+/* footer section starts here  */
+footer{
+    height: 800px;
+  
+}
+
+.footer-logo{
+    margin: auto;
+    width: 90%;
+}
+.footer-content a {
+font-size: 14px;
+font-weight: 600;
+}
+.footer-content {
+    width: 90%;
+    /* border: 2px solid red; */
+
+    margin: auto;
+    margin-top: 60px;
+
+    grid-template-columns: repeat(3,110px);
+    gap: 12px;
+}
+
+
+.footer-icons a {
+   font-size: 20px;
+   color: white;
+
+}
+
+.footer-icons{
+    margin: auto;
+    width: 90%;
+
+    /* border: 2px solid red; */
+
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,58px);
+    gap: 25px;
+}
+
+.terms-and-condition a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.terms-and-condition{
+    margin: auto;
+    width: 90%;
+    /* margin: auto; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    justify-content: center;
+    gap: 60px;
+}
+footer .copyright{
+    
+
+    margin: auto;
+    width: 200px;
+}
+
+
+/* footer section ends here  */
+/* footer section ends here  */
+
 }
 
 
@@ -307,6 +380,10 @@ right:60%;
 
 /* ------------buttons section starts here--------------------  */
 
+.buttons-section{
+    width: 95%;
+
+}
 .buttons-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -314,28 +391,98 @@ right:60%;
 }
 
 .button-style{
+    /* border: 2px solid red; */
     border-radius: 50px;
 background: #FFF;
-width: 150px;
+width: 130px;
 height: 60px;
 display: flex;
-gap: 4px;
+gap: 3px;
     align-items: center; 
-    padding-left: 5px;
+    /* padding-left: 5px; */
 
 }
 .btn-img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .button-text{
     color: #0B0223;
-font-size: 12px;
+font-size: 11px;
 font-weight: 600;
 padding-top: 29px;
 padding-bottom: 28px;
 }
 /* -------------buttons section ends here----------------------  */
+
+/* footer section starts here  */
+footer{
+    height: 800px;
+  
+}
+
+.footer-logo{
+    margin: auto;
+    width: 90%;
+}
+.footer-content a {
+font-size: 14px;
+font-weight: 600;
+}
+.footer-content {
+    width: 90%;
+    /* border: 2px solid red; */
+
+    margin: auto;
+    margin-top: 60px;
+
+    grid-template-columns: repeat(3,110px);
+    gap: 12px;
+}
+
+
+.footer-icons a {
+   font-size: 20px;
+   color: white;
+
+}
+
+.footer-icons{
+    margin: auto;
+    width: 90%;
+
+    /* border: 2px solid red; */
+
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,58px);
+    gap: 25px;
+}
+
+.terms-and-condition a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.terms-and-condition{
+    margin: auto;
+    width: 90%;
+    /* margin: auto; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    justify-content: center;
+    gap: 60px;
+}
+footer .copyright{
+    
+
+    margin: auto;
+    width: 200px;
+}
+
+
+/* footer section ends here  */
 
 }
