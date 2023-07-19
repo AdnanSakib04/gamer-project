@@ -1,5 +1,5 @@
 /* tablet responsive  */
-@media screen and (min-width: 576px) and (max-width: 990px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
     .nav-container{
         flex-direction: column;
         gap: 40px;  
@@ -28,8 +28,16 @@
             width: 100%;
         }
         .banner-items-container{
+
             width: 100%;
-            margin-top: 20px;
+            margin-top: 100px;
+            padding-bottom: 20px;
+
+        }
+
+        .banner-items-container h2{
+            padding-top: 20px;
+
         }
     /* banner section ends here  */
 
@@ -237,7 +245,8 @@ footer .copyright{
 
     
 .banner-items-container {
-    /* margin-top: 10px; */
+    margin-top: 100px;
+    padding-bottom: 20px;
     width: 100%;
     background-image: url("../images/Group14.png");
     background-repeat: no-repeat;
@@ -258,13 +267,14 @@ footer .copyright{
     margin-bottom: 17px;
 }
     .banner-items-container h2 {
+        padding-top: 20px;
         color: #0B0223;
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 600;
     }
     
     .banner-items-container h1 {
-        font-size: 55px;
+        font-size: 45px;
         font-style: normal;
         font-weight: 800;
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
