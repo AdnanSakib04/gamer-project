@@ -243,7 +243,6 @@ margin-bottom: 48px;
 .card-img {
     position: relative;
     border-radius: 16px;
-    /* overflow: hidden; */
   }
   
   .card-img img {
