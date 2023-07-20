@@ -1,5 +1,9 @@
 /* tablet responsive  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    main{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .nav-container{
         flex-direction: column;
         gap: 40px;  
@@ -206,6 +210,11 @@ footer .copyright{
 
 /* mobile responsive  */
 @media screen and (max-width: 576px) {
+    main{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+   
     .nav-container,
     .nav-items-container{
         flex-direction: column;
@@ -328,6 +337,10 @@ footer .copyright{
     .card img{
         width: 100%;
     }
+
+    .card p{
+        text-align: center;
+    }
 /* online games section ends here  */
 
 
@@ -383,7 +396,7 @@ right:60%;
 
 .play-instantly-images{
     /* border: 3px solid red; */
-    margin: 0 10px;
+    margin: 50px 10px;
 }
 /* play instantly section ends here  */
 

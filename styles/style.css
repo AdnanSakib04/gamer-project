@@ -283,6 +283,10 @@ margin-bottom: 48px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .card p{
+    margin-top: 24px;
+  }
   
 /* online games section ends here  */
 
